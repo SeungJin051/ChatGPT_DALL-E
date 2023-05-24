@@ -6,7 +6,7 @@ import openai as op
 op.api_key = st.secrets["api_key"]
 
 st.title("ChatGPT & DELL-E")
-st.text(" Prompt에 표현하면 ChatGPT가 구상하고 DALL-E는 그 생각을 이미지로 변환하여 드립니다.")
+st.text(" Prompt에 영어로 표현하면 ChatGPT가 구상하고 DALL-E는 그 생각을 이미지로 변환하여 드립니다.")
 
 with st.form("form"):
     user_input = st.text_input("Prompt")
